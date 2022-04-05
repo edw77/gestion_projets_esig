@@ -1,0 +1,57 @@
+
+  h1 {
+    text-align: center;
+    color: #050000;
+  }
+
+  .desc {
+    text-align: start;
+  }
+  
+
+  
+  .percent1, svg, circle {
+    width: 200px;
+    height: 200px;
+  }
+  
+  circle {
+    position: absolute;
+    fill: none;
+    stroke-width: 10;
+    transform: translate(10px, 10px);
+    stroke-dasharray: 440;
+    stroke-linecap: round;
+  }
+  
+  circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #ffffff;
+  }
+  
+  .number {
+    position: relative;
+    bottom: 150px;
+    right: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  span {
+    font-size: 24px;
+    opacity: .7;
+  }
+  
+  .percent1 span {
+    color: rgb(196, 14, 60);
+  }
+  
+  @keyframes percent {
+    0% {
+      stroke-dashoffset: 0;
+      stroke-width: 0;
+    }
+  }
