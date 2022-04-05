@@ -10,4 +10,6 @@ Site web de gestion des projets Ingénieur de l'ESIGELEC
 * Admin :
   * gestion technique des données du site
 
+Réalisé par moi-même et deux autres élèves de l'ESIGELEC (anonymes, non présents sur Git)
+
 
