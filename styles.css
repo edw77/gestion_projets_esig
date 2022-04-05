@@ -1,0 +1,93 @@
+nav{
+    background-color: #ffffff;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    opacity: 0.5; 
+}
+nav:hover {
+    opacity: 1.0;
+  }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+.accordion-body{
+    text-align: center;
+}
+header {
+    background-color:lightgray;
+}
+
+.container {
+    background-color: #ffffffc2;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    align-items: center;
+}
+
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+.footcontainer{
+    background-color: rgba(0, 0, 0, 0.616);
+    color:rgb(255, 255, 255)
+}
+
+.container2{
+    text-align: center;
+    margin:15%;
+    text-align: justify;
+}
+.containerConnexion{
+    background-color: rgb(128, 224, 99);
+    text-align: center;
+    margin:15%;
+
+
+}
+form {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+ }
+
+
+.containerBDD{
+    text-align: center;
+}
+
+
+.scroller {
+    margin: auto;
+    text-align: center;
+    text-align: justify;
+    width: 75%;
+    height: 500px;
+    overflow-y: scroll;
+    scrollbar-color: darkgray lightgray;
+    background-color: white;
+}
+  
+
+.prÃ©sentation {
+    background-color: darkgray;
+}
+
+body{
+    background-image:url(background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
